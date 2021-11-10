@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formularios</title>
+</head>
+<body>
+
+  <form action="#" method="post">
+
+    <label for="nombre">Escribe tu nombre completo</label>
+    <input type="text" id="nombre" placeholder="Escribe tu nombre" name="nombre">
+    <input type="email" name="correo" id="correo" placeholder="correo@correo.com">
+    <input type="password" name="contrasena" id="contrasena" >
+
+    <textarea id="mensaje" name="mensaje" cols="10" rows="5"></textarea>
+
+
+    <select id="curso" name="curso">
+
+      <option value="">Elige una opcion</option>
+      <option value="perritos">ICE</option>
+      <option value="gatitos">PAW</option>
+
+    </select>
+
+    <label for="pop">Pop</label>
+    <input type="checkbox" id="pop" value="pop">
+
+    <label for="rock">Rock</label>
+    <input type="checkbox" id="rock" value="rock">
+
+
+    <p>Selecciona tu sexo</p>
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="masculino" name="sexo" value="masculino">
+
+    <label for="femenino">femenino</label>
+    <input type="radio" name="sexo" id="femenino" value="femenino">
+
+    <label for="fecha">Fecha</label>
+    <input type="date" id="fecha">
+
+    <button type="button" class="boton">Button</button>
+    <button type="submit" class="boton-enviar">Submit</button>
+    <button type="reset" class="boton-limpiar">Reset</button>
+
+  </form>
+
+</body>
+</html>

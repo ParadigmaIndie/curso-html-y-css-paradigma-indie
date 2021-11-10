@@ -1,0 +1,40 @@
+/*ul.a {
+    list-style-type: circle;
+  }
+  
+  ul.b {
+    list-style-type: square;
+  }
+  
+  ol.c {
+    list-style-type: upper-roman;
+  }
+  
+  ol.d {
+    list-style-type: lower-alpha;
+  }
+*/
+
+ol.c {
+  list-style-type: upper-roman;
+}  
+/* Positions
+ul.a {
+    list-style-position: outside;
+  }
+  
+  ul.b {
+    list-style-position: inside;
+  }
+  */
+/* Imagen 
+  ul {
+    list-style-image: url('sqpurple.gif');
+  }
+  */
+  ul{
+    border: 1px solid crimson;
+  }
+  ul.a { 
+    list-style-position: inside;
+  }

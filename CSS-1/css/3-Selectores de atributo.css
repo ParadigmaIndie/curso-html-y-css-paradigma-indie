@@ -1,0 +1,24 @@
+/*Etiqueta con un atributo*/
+/*a[target] {*/
+/*    background-color: yellow;*/
+/*}*/
+
+/*Etiqueta con un atributo y un valor especifico*/
+a[target="_blank"] {
+    background-color: yellow;
+}
+
+/*Selector por atributo especifico que contenga la palabra "---" separada por espacios */
+/*[titulo~="pato"] {*/
+/*    border: 5px solid yellow;*/
+/*}*/
+
+/*Selector por atributo especifico que comience con "..." sparada o junta*/
+/*[titulo^="perro"] {*/
+/*    background: yellow;*/
+/*}*/
+
+/*Selector por atributo especifico que finalicen con "..." sparada o junta*/
+/*[class$="tabla"] {*/
+/*    background: yellow;*/
+/*}*/

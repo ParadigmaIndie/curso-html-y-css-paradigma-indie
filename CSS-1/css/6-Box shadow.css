@@ -1,0 +1,28 @@
+/*!* eje x - eje y - color *!*/
+/*#sombrita {*/
+/*    border: 1px solid;*/
+/*    padding: 10px;*/
+/*    box-shadow: 65px 166px #888888;*/
+/*}*/
+
+/*!* eje x - eje y - difuminado - color *!*/
+/*#sombrita-blur {*/
+/*    border: 1px solid;*/
+/*    padding: 10px;*/
+/*    box-shadow: 5px 10px 18px #888888;*/
+/*}*/
+
+/*!* eje x - eje y - difuminado - tamaño - color *!*/
+/*#sombrita2 {*/
+/*    border: 1px solid;*/
+/*    padding: 10px;*/
+/*    box-shadow: 10px 10px 8px 10px #888888;*/
+/*}*/
+
+
+/*!* (eje x - eje y - color) (eje x - eje y - tamaño - color) (eje x - eje y - color) *!*/
+/*#sombrita3 {*/
+/*    border: 1px solid;*/
+/*    padding: 10px;*/
+/*    box-shadow: 5px 5px green, 10px 10px yellow, 15px 15px red;*/
+/*}*/

@@ -1,0 +1,35 @@
+
+/*
+Seleccionamos fondo de color
+background-color
+
+Seleccionamos fondo de imagen
+background-image
+
+Ajustamos el tamaño de nuestro fondo
+background-size
+
+Ajustamos que la imagen se repita
+background-repeat
+
+Ajustamos la posicion del fondo
+background-position
+
+Ajustamos si la imagen se mantiene estatica o en scroll
+background-attachment
+
+*/
+    body{
+        height: 2000px;
+        padding-top: 300px;
+    }
+ .bg{
+    border: 1px solid crimson;
+    background-image: url('../img/pokemon.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 1280px;
+    height: 400px;
+ }

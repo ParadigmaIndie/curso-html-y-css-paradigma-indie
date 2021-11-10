@@ -1,0 +1,23 @@
+/*::before
+
+::after*/
+
+.caja{
+    background-image: url('../img/pokemon.jpg');
+    width: 1200px;
+    height: 600px;
+    position: relative;
+}
+.caja::before{
+
+}
+.caja::after{
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    opacity: .5;
+    content: '';
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}

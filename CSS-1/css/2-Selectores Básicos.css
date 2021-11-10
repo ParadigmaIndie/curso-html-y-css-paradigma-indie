@@ -1,0 +1,22 @@
+/*Seleccionar por etiquetas*/
+/*h1{*/
+/*    color: red;*/
+/*}*/
+/*p{*/
+/*    color: blueviolet;*/
+/*}*/
+
+/*Seleccionar ID*/
+
+#titulo{
+    color: blue;
+}
+#contenido{
+    color: green;
+}
+
+/*Seleccionar Clases*/
+
+.texto{
+    font-size: 20px;
+}
