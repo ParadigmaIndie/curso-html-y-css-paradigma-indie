@@ -1,0 +1,33 @@
+/* 
+Tiempo de retraso en animacion
+transition-delay: 1s;
+
+Tiempo de duracion de la animacion
+transition-duration: 5s; 
+
+Propiedades que se animaran. (all-> todas) o separar por comas
+transition-property: width, height; 
+
+Especifica la curva de velocidad del efecto de transición
+transition-timing-function: linear;
+    -ease (predeterminado)
+        Especifica un efecto de transición con un inicio lento, luego rápido y luego un final lento.
+    -linear
+        Especifica un efecto de transición con la misma velocidad de principio a fin 
+    -ease-in
+        Especifica un efecto de transición con un inicio lento.
+    -ease-out
+        Especifica un efecto de transición con un final lento
+    -ease-in-out
+        Especifica un efecto de transición con un inicio y un final lentos
+*/
+.caja {
+    background-color: crimson; 
+    transition:linear 3s;
+    width: 300px;
+    height: 300px;
+}
+.caja:hover { 
+    transform: scale(1.05);
+    border-radius: 25px;
+} 

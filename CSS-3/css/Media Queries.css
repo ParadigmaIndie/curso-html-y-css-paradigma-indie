@@ -1,0 +1,18 @@
+.caja{
+    /*movil*/
+    background-color: purple; 
+}
+@media screen and (min-width:768px) and (max-width:1280px){
+    .caja{
+        /*tableta*/
+        background-color: blue; 
+    }
+}
+@media screen and (min-width:1280px) {
+    .caja{
+        /*DESKTOP*/
+        background-color: pink; 
+    }
+} 
+
+ 

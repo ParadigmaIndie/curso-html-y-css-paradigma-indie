@@ -1,0 +1,46 @@
+/*
+Variables 
+:root {
+  --Nombre de variable : Valor
+  --rojo: #e43535; 
+  --tipografia: 'Arial';
+} 
+
+body { background-color: var(--blue); }
+*/  
+
+:root {
+  --rojo: #e43535;
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --tipografia: 'Arial';
+} 
+
+body{
+  background-color: var(--blue);
+
+}
+h1{
+  font-family: var(--tipografia);
+  color: var(--rojo);
+}
+h2{
+  font-family: var(--tipografia);
+  color: var(--rojo);
+}
+h3{
+  font-family: var(--tipografia);
+  color: var(--rojo);
+}
+h4{
+  font-family: var(--tipografia);
+  color: var(--rojo);
+}
+h5{
+  font-family: var(--tipografia);
+  color: var(--rojo);
+}
+h6{
+  font-family: var(--tipografia);
+  color: var(--rojo);
+}
